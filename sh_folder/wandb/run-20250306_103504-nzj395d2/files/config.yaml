@@ -1,0 +1,53 @@
+_wandb:
+    value:
+        cli_version: 0.19.6
+        m: []
+        python_version: 3.10.16
+        t:
+            "1":
+                - 1
+                - 55
+            "2":
+                - 1
+                - 55
+            "3":
+                - 13
+                - 16
+                - 23
+                - 55
+            "4": 3.10.16
+            "5": 0.19.6
+            "8":
+                - 5
+            "12": 0.19.6
+            "13": linux-x86_64
+batch_size:
+    value: 32
+buffer_size:
+    value: 200000
+entropy_coeff:
+    value: 0.02
+env_name:
+    value: InvertedPendulum-v5
+gamma:
+    value: 0.99
+gradient_clipping_:
+    value: false
+lr:
+    value: 0.001
+max_grad_norm:
+    value: 0.2
+method:
+    value: default
+model:
+    value: REINFORCE
+n_step:
+    value: 3000000
+n_train_start:
+    value: 1000
+scheduler_:
+    value: false
+test_freq:
+    value: 1000
+total_episodes:
+    value: 50000

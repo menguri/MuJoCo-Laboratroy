@@ -1,0 +1,15 @@
+{"time":"2025-03-06T10:32:03.013774709+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/gpfs/home1/alsrn50/MLIC_LAB/rl-study/mujoco_lab/sh_folder/wandb/run-20250306_103202-etnwqmo3/logs/debug-core.log"}
+{"time":"2025-03-06T10:32:03.123203487+09:00","level":"INFO","msg":"created new stream","id":"etnwqmo3"}
+{"time":"2025-03-06T10:32:03.12325074+09:00","level":"INFO","msg":"stream: started","id":"etnwqmo3"}
+{"time":"2025-03-06T10:32:03.123265823+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"etnwqmo3"}
+{"time":"2025-03-06T10:32:03.123282709+09:00","level":"INFO","msg":"handler: started","stream_id":"etnwqmo3"}
+{"time":"2025-03-06T10:32:03.123286523+09:00","level":"INFO","msg":"sender: started","stream_id":"etnwqmo3"}
+{"time":"2025-03-06T10:32:03.51883442+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T10:32:06.155351103+09:00","level":"INFO","msg":"stream: closing","id":"etnwqmo3"}
+{"time":"2025-03-06T10:32:06.155408116+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T10:32:06.155954834+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T10:32:06.909272446+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T10:32:07.195232713+09:00","level":"INFO","msg":"handler: closed","stream_id":"etnwqmo3"}
+{"time":"2025-03-06T10:32:07.195257199+09:00","level":"INFO","msg":"sender: closed","stream_id":"etnwqmo3"}
+{"time":"2025-03-06T10:32:07.195255026+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"etnwqmo3"}
+{"time":"2025-03-06T10:32:07.195354952+09:00","level":"INFO","msg":"stream: closed","id":"etnwqmo3"}

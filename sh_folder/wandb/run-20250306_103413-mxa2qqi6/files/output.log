@@ -1,0 +1,3 @@
+  0%|                                                          | 0/30000 [00:00<?, ?it/s]/gpfs/home1/alsrn50/MLIC_LAB/rl-study/mujoco_lab/nn/A2C.py:143: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  states_t = torch.tensor(states, dtype=torch.float32, device=self.device)
+  0%|▏                                                | 93/30000 [00:03<23:10, 21.50it/s]

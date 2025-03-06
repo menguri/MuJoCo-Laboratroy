@@ -1,0 +1,22 @@
+2025-03-06 10:34:13,372 INFO    MainThread:3817212 [wandb_setup.py:_flush():68] Current SDK version is 0.19.6
+2025-03-06 10:34:13,372 INFO    MainThread:3817212 [wandb_setup.py:_flush():68] Configure stats pid to 3817212
+2025-03-06 10:34:13,372 INFO    MainThread:3817212 [wandb_setup.py:_flush():68] Loading settings from /home1/alsrn50/.config/wandb/settings
+2025-03-06 10:34:13,372 INFO    MainThread:3817212 [wandb_setup.py:_flush():68] Loading settings from /gpfs/home1/alsrn50/MLIC_LAB/rl-study/mujoco_lab/sh_folder/wandb/settings
+2025-03-06 10:34:13,372 INFO    MainThread:3817212 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-03-06 10:34:13,372 INFO    MainThread:3817212 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /gpfs/home1/alsrn50/MLIC_LAB/rl-study/mujoco_lab/sh_folder/wandb/run-20250306_103413-mxa2qqi6/logs/debug.log
+2025-03-06 10:34:13,372 INFO    MainThread:3817212 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /gpfs/home1/alsrn50/MLIC_LAB/rl-study/mujoco_lab/sh_folder/wandb/run-20250306_103413-mxa2qqi6/logs/debug-internal.log
+2025-03-06 10:34:13,373 INFO    MainThread:3817212 [wandb_init.py:init():756] calling init triggers
+2025-03-06 10:34:13,373 INFO    MainThread:3817212 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'env_name': 'InvertedPendulum-v5', 'model': 'A2C', 'method': 'TD_lambda', 'lambda': 0.95, 'batch_size': 16, 'buffer_size': 200000, 'lr': 0.0003, 'gamma': 0.99, 'entropy_coeff': 0.02, 'epsilon_init': 1.0, 'epsilon_min': 0.05, 'epsilon_decay': 0.997, 'n_step': 5000000, 'n_train_start': 5000, 'gradient_clipping_': False, 'max_grad_norm': 0.2, 'scheduler_': False, 'test_freq': 10000, 'total_episodes': 30000, '_wandb': {}}
+2025-03-06 10:34:13,373 INFO    MainThread:3817212 [wandb_init.py:init():789] starting backend
+2025-03-06 10:34:13,583 INFO    MainThread:3817212 [wandb_init.py:init():793] sending inform_init request
+2025-03-06 10:34:13,587 INFO    MainThread:3817212 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-06 10:34:13,587 INFO    MainThread:3817212 [wandb_init.py:init():808] backend started and connected
+2025-03-06 10:34:13,588 INFO    MainThread:3817212 [wandb_init.py:init():901] updated telemetry
+2025-03-06 10:34:13,596 INFO    MainThread:3817212 [wandb_init.py:init():936] communicating run to backend with 90.0 second timeout
+2025-03-06 10:34:14,064 INFO    MainThread:3817212 [wandb_init.py:init():994] starting run threads in backend
+2025-03-06 10:34:14,280 INFO    MainThread:3817212 [wandb_run.py:_console_start():2385] atexit reg
+2025-03-06 10:34:14,280 INFO    MainThread:3817212 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-03-06 10:34:14,280 INFO    MainThread:3817212 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-03-06 10:34:14,281 INFO    MainThread:3817212 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-03-06 10:34:14,284 INFO    MainThread:3817212 [wandb_init.py:init():1036] run started, returning control to user process

@@ -1,0 +1,7 @@
+{"time":"2025-03-06T10:32:32.430955754+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/gpfs/home1/alsrn50/MLIC_LAB/rl-study/mujoco_lab/sh_folder/wandb/run-20250306_103232-vgizv6vr/logs/debug-core.log"}
+{"time":"2025-03-06T10:32:32.538201937+09:00","level":"INFO","msg":"created new stream","id":"vgizv6vr"}
+{"time":"2025-03-06T10:32:32.538280647+09:00","level":"INFO","msg":"stream: started","id":"vgizv6vr"}
+{"time":"2025-03-06T10:32:32.538349277+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"vgizv6vr"}
+{"time":"2025-03-06T10:32:32.538355147+09:00","level":"INFO","msg":"handler: started","stream_id":"vgizv6vr"}
+{"time":"2025-03-06T10:32:32.538357979+09:00","level":"INFO","msg":"sender: started","stream_id":"vgizv6vr"}
+{"time":"2025-03-06T10:32:32.858279858+09:00","level":"INFO","msg":"Starting system monitor"}

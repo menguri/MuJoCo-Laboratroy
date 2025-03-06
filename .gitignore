@@ -1,0 +1,7 @@
+*.pth
+*.txt
+*.pyc
+*.sh
+
+results/
+jupyter_output/

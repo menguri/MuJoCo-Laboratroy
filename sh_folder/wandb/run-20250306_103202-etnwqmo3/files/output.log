@@ -1,0 +1,17 @@
+  0%|                                                          | 0/30000 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/gpfs/home1/alsrn50/MLIC_LAB/rl-study/mujoco_lab/sh_folder/../train.py", line 56, in <module>
+    main()
+  File "/gpfs/home1/alsrn50/MLIC_LAB/rl-study/mujoco_lab/sh_folder/../train.py", line 51, in main
+    agent.train()
+  File "/gpfs/home1/alsrn50/MLIC_LAB/rl-study/mujoco_lab/nn/REINFORCE.py", line 120, in train
+    discounted_rewards = (discounted_rewards - discounted_rewards.mean()) / (discounted_rewards.std() + 1e-8)
+AttributeError: 'list' object has no attribute 'mean'
+Traceback (most recent call last):
+  File "/gpfs/home1/alsrn50/MLIC_LAB/rl-study/mujoco_lab/sh_folder/../train.py", line 56, in <module>
+    main()
+  File "/gpfs/home1/alsrn50/MLIC_LAB/rl-study/mujoco_lab/sh_folder/../train.py", line 51, in main
+    agent.train()
+  File "/gpfs/home1/alsrn50/MLIC_LAB/rl-study/mujoco_lab/nn/REINFORCE.py", line 120, in train
+    discounted_rewards = (discounted_rewards - discounted_rewards.mean()) / (discounted_rewards.std() + 1e-8)
+AttributeError: 'list' object has no attribute 'mean'

@@ -1,0 +1,56 @@
+# ----------------------
+# 환경 설정 (Env Config)
+# ----------------------
+# 사용 가능한 환경 예시:
+env_name: "Walker2d-v5"      # 2족 보행, 중간 난이도
+# env_name: "InvertedPendulum-v5"  # 가장 쉬운 환경 (막대 세우기)
+# env_name: "CartPole-v1"     # 이산적 액션 환경 (Discrete Action)
+# env_name: "MountainCar-v0"   # 연속적인 목표 설정 환경
+# env_name: "HalfCheetah-v5"   # 난이도 높은 MuJoCo 환경
+# env_name: "Hopper-v5"        # 현재 사용 중인 환경
+# env_name: "Hopper-v5"
+
+# ----------------------
+# 모델 및 학습 알고리즘 설정 (Model & Training Method)
+# ----------------------
+model: "A2C"        # 사용 중인 강화학습 알고리즘 (Advantage Actor-Critic)
+method: "Advantage" # Advantage 기반 학습 방식 사용
+
+# ----------------------
+# 하이퍼파라미터 설정 (Hyperparameters)
+# ----------------------
+lambda: 0.99          # GAE (Generalized Advantage Estimation)에 사용되는 감쇠 계수
+batch_size: 16            # 학습 배치 크기
+buffer_size: 200000   # 리플레이 버퍼 크기 (A2C에서는 사용하지 않지만, 다른 방법과 호환 가능)
+
+# ----------------------
+# 학습률 및 최적화 관련 설정 (Learning Rate & Optimization)
+# ----------------------
+lr: 0.0001            # 정책 네트워크 및 가치 네트워크의 학습률
+gamma: 0.99           # 할인 계수 (미래 보상의 가중치 조절)
+max_grad_norm: 0.5
+entropy_coeff: 0.01   # Entropy 조정 계수
+
+# ----------------------
+# Epsilon-Greedy Exploration (탐색 설정)
+# ----------------------
+epsilon_init: 1.0     # 초기 탐색 확률 (탐욕적 정책에서 사용)
+epsilon_min: 0.1      # 최소 탐색 확률
+epsilon_decay: 0.995  # 탐색 확률 감소율
+
+# ----------------------
+# 학습 단계 및 업데이트 설정 (Training Steps & Updates)
+# ----------------------
+n_step: 5000000         # 총 학습 스텝 수
+n_train_start: 2000     # 학습 시작 전, 샘플을 쌓아둘 최소 스텝 수
+target_update_freq: 1000  # 타겟 네트워크 업데이트 주기 (REINFORCE/A2C에서는 미사용)
+gradient_clipping_: False
+max_grad_norm: 0.2
+scheduler_: True
+
+# ----------------------
+# 평가 및 테스트 주기 (Evaluation & Testing)
+# ----------------------
+test_freq: 5000         # 테스트 주기 (주어진 스텝마다 평가 수행)
+total_episodes: 30000   # 총 에피소드 수
+

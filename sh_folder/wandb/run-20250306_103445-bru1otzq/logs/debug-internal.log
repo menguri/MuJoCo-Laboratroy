@@ -1,0 +1,8 @@
+{"time":"2025-03-06T10:34:45.903460445+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/gpfs/home1/alsrn50/MLIC_LAB/rl-study/mujoco_lab/sh_folder/wandb/run-20250306_103445-bru1otzq/logs/debug-core.log"}
+{"time":"2025-03-06T10:34:46.012899566+09:00","level":"INFO","msg":"created new stream","id":"bru1otzq"}
+{"time":"2025-03-06T10:34:46.012946347+09:00","level":"INFO","msg":"stream: started","id":"bru1otzq"}
+{"time":"2025-03-06T10:34:46.012961672+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"bru1otzq"}
+{"time":"2025-03-06T10:34:46.012975073+09:00","level":"INFO","msg":"sender: started","stream_id":"bru1otzq"}
+{"time":"2025-03-06T10:34:46.013798732+09:00","level":"INFO","msg":"handler: started","stream_id":"bru1otzq"}
+{"time":"2025-03-06T10:34:46.367252021+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T10:59:53.89069579+09:00","level":"ERROR","msg":"runconsolelogs: failed to write to file: failed to open file: open /gpfs/home1/alsrn50/MLIC_LAB/rl-study/mujoco_lab/sh_folder/wandb/run-20250306_103445-bru1otzq/files/output.log: no such file or directory"}
