@@ -1,0 +1,36 @@
+REINFORCE
+[1] log_prob를 그대로 학습에 적용하고 있었음 > log_prob 미분한 것을 반영해야 함
+[answer] log_prob 추적만 된다면, backward()에서 자동으로 미분이 되는 것이라고 함
+
+Actor2Critic
+[1] epilson/decay 작업 실행되고 있나?
+- epsilon decaying(lambda나 뭐 다른 것들) 확인하기
+[2] mean()이 문제인지, Gradient Clipping?, Scheduler?
+[3] Gradient, Scheduler도 학습 환경에 따라 매우 예민하게 움직이는 것으로 보임.
+
+
+
+
+[Task]
+Task-1. Walker 보다 쉬운 환경에서 모델 학습
+-> InvertedPendulum
+
+Task-2. Continuos Action Clipping 진행
+-> mean, std 범위 지정정
+
+Task-3. Policy, Critic-Network 더 엄밀하게 설계
+-> LayerNorm, orthogonal, 신경망 더 넓고 깊숙하게, Dropout 적용
+
+Task-4. 보상 정규화
+-> mean, std 구하고 정규화 > 이걸로 policy와 critic 업데이트
+
+Task-5. Relu or Tanh 고민
+-> 이미 적용 완료
+
+Task-6. Entropy Regularization (모델 action selection이 초기에 deterministic하게 되지 않도록 조정)
+-> Loss 정의에서 활용. 
+
+Task-7. eligibility traces 계산할 때, log_prob.detach() 하면 안될 것으로 보임
+-> 적용 완료
+
+Task-Final. 전부 적용해놓고, 환경 총 3개에서 모델 9개 대기시켜놓기(GPU6 or GPU1)

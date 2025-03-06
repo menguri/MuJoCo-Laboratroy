@@ -1,5 +1,6 @@
 *.pth
-*.txt
+*.txt        # 모든 txt 파일 제외
+!requirements.txt  # requirements.txt만 다시 추가 (예외 처리)
 *.pyc
 *.sh
 

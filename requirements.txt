@@ -1,0 +1,7 @@
+gymnasium==1.0.0
+matplotlib==3.10.1
+numpy==1.23.5
+PyYAML==6.0.2
+PyYAML==6.0.2
+torch==2.1.0+cu121
+tqdm==4.67.1
