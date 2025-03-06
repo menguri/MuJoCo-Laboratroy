@@ -41,7 +41,7 @@ def main():
     config = load_config(args.config)
     
     # wandb 초기화
-    wandb.init(project=f"{config["env_name"]}_experiment", config=config, name=args.name if args.name else "test_halfcheetah")
+    wandb.init(project=f"{config['env_name']}_experiment", config=config, name=args.name if args.name else "test_halfcheetah")
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
     
